@@ -15,7 +15,7 @@ import { Auth } from '../providers/auth';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage: any = LoginPage;
+  rootPage: any;
   loader: any;
 
   constructor(public auth:Auth, public loadingCtrl: LoadingController) {
